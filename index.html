@@ -11,7 +11,17 @@
 
     <header>
         <div class="logo">
-            <a href="#topo"><strong>TechNova</strong> Solutions</a>
+            <a href="#topo" aria-label="TechNova Solutions - Página Inicial">
+                <svg class="icone-logo" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+                <span class="logo-texto">
+                    <strong>TechNova</strong>
+                    <span>SOLUTIONS</span>
+                </span>
+            </a>
         </div>
 
         <nav aria-label="Menu Principal">
@@ -36,18 +46,18 @@
 
             <div class="hero-destaques">
                 <figure>
-                    <img src="img/destaque-cloud.jpg" alt="Servidores em nuvem conectados representando arquitetura cloud computing">
+                    <img src="img/grupo.png" width="800" height="450" alt="Equipe de desenvolvedores trabalhando em computadores no escritório da TechNova">
+                    <figcaption>Desenvolvimento Web e Mobile Sob Medida</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="img/servidores.png" width="400" height="250" alt="Servidores em nuvem iluminados representando arquitetura cloud computing">
                     <figcaption>Arquitetura Cloud de Alta Disponibilidade</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="img/destaque-ia.jpg" alt="Interface de análise de dados preditivos com inteligência artificial">
+                    <img src="img/naliseDados.png" width="400" height="250" alt="Notebook exibindo dashboard de análise de dados e métricas">
                     <figcaption>Automação Inteligente e Análise Preditiva</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="img/destaque-dev.jpg" alt="Equipe de desenvolvedores trabalhando em código de aplicação web e mobile">
-                    <figcaption>Desenvolvimento Web e Mobile Sob Medida</figcaption>
                 </figure>
             </div>
         </section>
@@ -77,21 +87,21 @@
                 <h3>Nossa Equipe de Especialistas</h3>
 
                 <article>
-                    <img src="img/equipe-ana.jpg" alt="Retrato profissional de Ana Clara Mendes, CEO e Fundadora da TechNova">
+                    <img src="img/mulher.png" width="400" height="400" alt="Retrato profissional de Ana Clara Mendes, CEO e Fundadora da TechNova">
                     <h4>Ana Clara Mendes</h4>
                     <p><strong>CEO &amp; Fundadora</strong></p>
                     <p>Engenheira de Software com 12 anos de experiência em arquitetura de sistemas distribuídos e gestão de produtos digitais.</p>
                 </article>
 
                 <article>
-                    <img src="img/equipe-lucas.jpg" alt="Retrato profissional de Lucas Ferreira, Diretor de Tecnologia (CTO)">
+                    <img src="img/homem.png" width="400" height="400" alt="Retrato profissional de Lucas Ferreira, Diretor de Tecnologia (CTO)">
                     <h4>Lucas Ferreira</h4>
                     <p><strong>Diretor de Tecnologia (CTO)</strong></p>
                     <p>Especialista em Cloud Computing, DevSecOps e escalabilidade de plataformas críticas de alto tráfego.</p>
                 </article>
 
                 <article>
-                    <img src="img/equipe-mariana.jpg" alt="Retrato profissional de Mariana Costa, Líder de Dados e IA">
+                    <img src="img/mulher%202.png" width="400" height="400" alt="Retrato profissional de Mariana Costa, Líder de Dados e IA">
                     <h4>Mariana Costa</h4>
                     <p><strong>Líder de Dados &amp; IA</strong></p>
                     <p>Mestre em Ciência da Computação, focada em modelos de Machine Learning e automação de processos empresariais.</p>
@@ -105,16 +115,31 @@
 
             <div class="lista-servicos">
                 <article>
+                    <svg class="icone-servico" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
                     <h3>Desenvolvimento Web &amp; Mobile</h3>
                     <p>Criação de aplicações web progressivas, portais corporativos e aplicativos nativos com foco em performance e acessibilidade.</p>
                 </article>
 
                 <article>
+                    <svg class="icone-servico" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+                    </svg>
                     <h3>Cloud &amp; DevOps</h3>
                     <p>Migração segura para a nuvem, automação de esteiras de deploy (CI/CD) e monitoramento contínuo 24/7.</p>
                 </article>
 
                 <article>
+                    <svg class="icone-servico" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                        <rect x="9" y="9" width="6" height="6"></rect>
+                        <line x1="9" y1="1" x2="9" y2="4"></line>
+                        <line x1="15" y1="1" x2="15" y2="4"></line>
+                        <line x1="9" y1="20" x2="9" y2="23"></line>
+                        <line x1="15" y1="20" x2="15" y2="23"></line>
+                    </svg>
                     <h3>Inteligência Artificial &amp; Dados</h3>
                     <p>Estruturação de Data Lakes, painéis de Business Intelligence e integração de assistentes virtuais inteligentes.</p>
                 </article>
@@ -202,7 +227,147 @@
             <div class="blog-artigos">
                 <article>
                     <div class="artigo-capa">
-                        <img src="img/blog-ia-negocios.jpg" alt="Gráfico digital ilustrando crescimento de produtividade com IA">
+                        <img src="img/ia.png" width="600" height="360" alt="Notebook com projeção de rede neural e análise preditiva de mercado">
+                        <span class="categoria">Inteligência Artificial</span>
                     </div>
-                    <span class="categoria">Inteligência Artificial</span>
                     <p>Publicado em <time datetime="2026-10-15">15 de outubro de 2026</time> por <strong>Igor Del Passo</strong></p>
+                    <h3>Como a IA Generativa está reduzindo custos operacionais em PMEs</h3>
+                    <p>Descubra casos práticos de automação de atendimento e análise documental que já estão gerando retorno financeiro imediato.</p>
+                    <a href="#blog">Ler artigo completo →</a>
+                </article>
+
+                <article>
+                    <div class="artigo-capa">
+                        <img src="img/cadeado.png" width="600" height="360" alt="Cadeado digital azul cercado por conexões de segurança cibernética">
+                        <span class="categoria">Cloud &amp; Segurança</span>
+                    </div>
+                    <p>Publicado em <time datetime="2026-11-02">02 de novembro de 2026</time> por <strong>Lucas Ferreira</strong></p>
+                    <h3>Boas práticas de arquitetura Zero Trust para aplicações em nuvem</h3>
+                    <p>Entenda os pilares essenciais para proteger APIs e bancos de dados corporativos contra acessos não autorizados.</p>
+                    <a href="#blog">Ler artigo completo →</a>
+                </article>
+
+                <article>
+                    <div class="artigo-capa">
+                        <img src="img/programaçao.png" width="600" height="360" alt="Tela de computador exibindo código-fonte limpo em editor escuro">
+                        <span class="categoria">Engenharia de Software</span>
+                    </div>
+                    <p>Publicado em <time datetime="2026-11-18">18 de novembro de 2026</time> por <strong>Ana Clara Mendes</strong></p>
+                    <h3>Por que o HTML5 semântico é vital para SEO e acessibilidade web</h3>
+                    <p>Veja como a estruturação correta de tags melhora o ranqueamento orgânico e garante inclusão para leitores de tela.</p>
+                    <a href="#blog">Ler artigo completo →</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato &amp; Localização</h2>
+            <p>Pronto para iniciar seu próximo projeto digital? Preencha o formulário abaixo ou visite nosso escritório.</p>
+
+            <div class="contato-container">
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Envie sua Mensagem Corporativa</legend>
+
+                        <div>
+                            <label for="nome">Nome Completo:</label>
+                            <input type="text" id="nome" name="nome" required placeholder="Ex: João da Silva">
+                        </div>
+
+                        <div>
+                            <label for="email">E-mail Institucional:</label>
+                            <input type="email" id="email" name="email" required placeholder="Ex: joao@suaempresa.com.br">
+                        </div>
+
+                        <div>
+                            <label for="telefone">Telefone / WhatsApp:</label>
+                            <input type="tel" id="telefone" name="telefone" required placeholder="Ex: (11) 99999-9999">
+                        </div>
+
+                        <div>
+                            <label for="assunto">Assunto do Atendimento:</label>
+                            <select id="assunto" name="assunto" required>
+                                <option value="">Selecione uma opção...</option>
+                                <option value="orcamento">Solicitação de Orçamento</option>
+                                <option value="consultoria">Consultoria Tecnológica</option>
+                                <option value="suporte">Suporte Técnico</option>
+                                <option value="parcerias">Parcerias Comerciais</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="mensagem">Mensagem Detalhada:</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Descreva brevemente as necessidades ou objetivos do seu projeto..."></textarea>
+                        </div>
+
+                        <div class="campo-checkbox">
+                            <input type="checkbox" id="aceite" name="aceite" required>
+                            <label for="aceite">Li e concordo com a Política de Privacidade e o tratamento de dados conforme a LGPD.</label>
+                        </div>
+
+                        <div>
+                            <button type="submit">Enviar Mensagem</button>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <aside>
+                    <h3>Informações Institucionais</h3>
+                    <address>
+                        <strong>TechNova Solutions Ltda.</strong><br>
+                        Av. Paulista, 1578 – Bela Vista<br>
+                        São Paulo – SP, CEP 01310-200<br><br>
+                        E-mail: <a href="mailto:contato@technovasolutions.com.br">contato@technovasolutions.com.br</a><br>
+                        Telefone: <a href="tel:+551130004000">(11) 3000-4000</a>
+                    </address>
+
+                    <div class="mapa">
+                        <iframe 
+                            src="https://openstreetmap.org" 
+                            width="600" 
+                            height="250" 
+                            title="Mapa de localização da TechNova Solutions na Avenida Paulista"
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="rodape-info">
+            <p>&copy; 2026 TechNova Solutions. Todos os direitos reservados.</p>
+
+            <nav aria-label="Links Úteis do Rodapé">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contato">Política de Privacidade</a></li>
+                </ul>
+            </nav>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
