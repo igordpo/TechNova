@@ -25,6 +25,6 @@ technova-solutions/
 ```
 
 ## 🌐 Publicação e Auditoria W3C
-* **Site no GitHub Pages:** `https://github.io`
-* **Validação HTML5 (W3C):** Aprovado com 0 erros (`https://w3.org`)
-* **Validação CSS3 (W3C):** Aprovado com 0 erros (`https://w3.org`)
+* **Site no GitHub Pages:** `https://igordpo.github.io/TechNova/#servicos`
+* **Validação HTML5 (W3C):** Aprovado com 0 erros (`https://validator.w3.org/nu/#textarea`)
+* **Validação CSS3 (W3C):** Aprovado com 0 erros (`https://validator.w3.org/nu/#textarea`)
